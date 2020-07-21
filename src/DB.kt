@@ -9,7 +9,7 @@ class DB(){
     var value = 0
 
     fun writeSessions(){
-        Database.connect("jdbc:mysql://localhost:3306/ser", driver = "com.mysql.jdbc.Driver",
+        Database.connect("jdbc:mysql://localhost:3306/user", driver = "com.mysql.jdbc.Driver",
                  user = "user", password = "r39UAmBBubXysL5H")
 
         transaction {
